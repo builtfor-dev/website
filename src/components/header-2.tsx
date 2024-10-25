@@ -1,0 +1,82 @@
+import Link from "next/link";
+
+import { Button } from "@/components/ui/button";
+import { MobileNavbar } from "@/components/mobile-navbar";
+
+export function Header2() {
+  return (
+    <header className="container flex items-center justify-between gap-10 py-4">
+      <Link href="/" className="flex items-center gap-3 flex-1">
+        <img src="/images/green-icon.png" width={50} />
+      </Link>
+      <nav className="hidden items-center gap-10 md:flex flex-1 justify-center">
+        <Link
+          href="https://buildfor.dev#sprint"
+          className="flex cursor-pointer items-center text-lg font-medium text-muted-foreground transition-colors hover:text-foreground sm:text-sm"
+        >
+          Sprint
+        </Link>
+        <Link
+          href="https://buildfor.dev#devrel"
+          className="flex cursor-pointer items-center text-lg font-medium text-muted-foreground transition-colors hover:text-foreground sm:text-sm"
+        >
+          DevRel
+        </Link>
+        <Link
+          href="https://buildfor.dev#pricing"
+          className="flex cursor-pointer items-center text-lg font-medium text-muted-foreground transition-colors hover:text-foreground sm:text-sm"
+        >
+          Pricing
+        </Link>
+        <Link
+          href="https://buildfor.dev#difference"
+          className="flex cursor-pointer items-center text-lg font-medium text-muted-foreground transition-colors hover:text-foreground sm:text-sm"
+        >
+          Why Us?
+        </Link>
+      </nav>
+      <div className="hidden items-center gap-2 md:flex flex-1 justify-end">
+        <Button asChild variant="secondary" className="text-black">
+          <Link href="https://blt4.dev/sprint" className="cursor-pointer">
+            Get Started
+          </Link>
+        </Button>
+      </div>
+      <MobileNavbar>
+        <div className="rounded-b-lg bg-background py-4 container text-foreground shadow-xl">
+          <nav className="flex flex-col gap-1 pt-2">
+            <Link
+              href="/about"
+              className="flex w-full cursor-pointer items-center rounded-md p-2 font-medium text-muted-foreground hover:text-foreground"
+            >
+              Sprint
+            </Link>
+            <Link
+              href="/docs"
+              className="flex w-full cursor-pointer items-center rounded-md p-2 font-medium text-muted-foreground hover:text-foreground"
+            >
+              DevRel
+            </Link>
+            <Link
+              href="/pricing"
+              className="flex w-full cursor-pointer items-center rounded-md p-2 font-medium text-muted-foreground hover:text-foreground"
+            >
+              Pricing
+            </Link>
+            <Link
+              href="/blog"
+              className="flex w-full cursor-pointer items-center rounded-md p-2 font-medium text-muted-foreground hover:text-foreground"
+            >
+              Results
+            </Link>
+            <Button size="lg" asChild className="mt-2 w-full">
+              <Link href="#" className="cursor-pointer">
+                Get Started
+              </Link>
+            </Button>
+          </nav>
+        </div>
+      </MobileNavbar>
+    </header>
+  );
+}
