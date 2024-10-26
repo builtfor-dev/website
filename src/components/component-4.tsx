@@ -18,7 +18,7 @@ export function Component4() {
       <div className="mt-7 grid w-full grid-cols-1 gap-7 lg:grid-cols-3">
         <Card className="relative shadow-lg">
           <CardContent className="flex flex-col items-start p-7">
-            <h4 className="font-heading text-2xl font-semibold text-foreground">Team of Two</h4>
+            <h4 className="font-heading text-2xl font-semibold text-foreground">One on One</h4>
             <p className="mt-2 text-muted-foreground">
               For Solo Dev Tool Founders Looking to Establish Roots
             </p>
@@ -72,7 +72,7 @@ export function Component4() {
         </Card>
         <Card className="relative shadow-lg border-2 border-primary">
           <CardContent className="flex flex-col items-start p-7">
-            <h4 className="font-heading text-2xl font-semibold text-foreground">Team of Experts</h4>
+            <h4 className="font-heading text-2xl font-semibold text-foreground">The B-Team</h4>
             <p className="mt-2 text-muted-foreground">
               For Dev Tools Looking to Grow Their Credibility and Revenue
             </p>
