@@ -23,13 +23,13 @@ export function Header2() {
           DevRel
         </Link>
         <Link
-          href="https://blt4.dev/pricing"
+          href="https://www.builtfor.dev/#pricing"
           className="flex cursor-pointer items-center text-lg font-medium text-muted-foreground transition-colors hover:text-foreground sm:text-sm"
         >
           Pricing
         </Link>
         <Link
-          href="https://blt4.dev/results"
+          href="https://www.builtfor.dev/#difference"
           className="flex cursor-pointer items-center text-lg font-medium text-muted-foreground transition-colors hover:text-foreground sm:text-sm"
         >
           Why Us?
