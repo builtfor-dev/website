@@ -11,25 +11,25 @@ export function Header2() {
       </Link>
       <nav className="hidden items-center gap-10 md:flex flex-1 justify-center">
         <Link
-          href="https://buildfor.dev#sprint"
+          href="https://blt4.dev/sprint"
           className="flex cursor-pointer items-center text-lg font-medium text-muted-foreground transition-colors hover:text-foreground sm:text-sm"
         >
           Sprint
         </Link>
         <Link
-          href="https://buildfor.dev#devrel"
+          href="https://blt4.dev/doneforyou"
           className="flex cursor-pointer items-center text-lg font-medium text-muted-foreground transition-colors hover:text-foreground sm:text-sm"
         >
           DevRel
         </Link>
         <Link
-          href="https://buildfor.dev#pricing"
+          href="https://blt4.dev/pricing"
           className="flex cursor-pointer items-center text-lg font-medium text-muted-foreground transition-colors hover:text-foreground sm:text-sm"
         >
           Pricing
         </Link>
         <Link
-          href="https://buildfor.dev#difference"
+          href="https://blt4.dev/results"
           className="flex cursor-pointer items-center text-lg font-medium text-muted-foreground transition-colors hover:text-foreground sm:text-sm"
         >
           Why Us?
