@@ -1,5 +1,5 @@
 export function CtaSection2() {
-	const beehiveForm = `<iframe src="https://embeds.beehiiv.com/986f76fb-6b14-4b93-ad96-341a3542e1a5" data-test-id="beehiiv-embed" width="100%" height="320" frameborder="0" scrolling="no" style="border-radius: 4px; border: 2px solid #e5e7eb; margin: 0; background-color: transparent;"></iframe>`
+	const beehiveForm = `<iframe src="https://embeds.beehiiv.com/986f76fb-6b14-4b93-ad96-341a3542e1a5" data-test-id="beehiiv-embed" width="100%" height="320" frameborder="0" scrolling="no" style="border-radius: 4px; border: none; margin: 0; background-color: transparent;"></iframe>`
 
 	return (
 		<section className='container'>
