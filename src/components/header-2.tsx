@@ -12,13 +12,13 @@ export function Header2() {
       <nav className="hidden items-center gap-10 md:flex flex-1 justify-center">
         <Link
           href="https://blt4.dev/sprint"
-          className="flex cursor-pointer items-center text-lg font-medium text-muted-foreground transition-colors hover:text-foreground sm:text-sm"
+          className="flex cursor-pointer items-center text-lg font-medium text-muted-foreground transition-colors hover:text-foreground sm:text-sm" target="_blank"
         >
           Sprint
         </Link>
         <Link
           href="https://blt4.dev/doneforyou"
-          className="flex cursor-pointer items-center text-lg font-medium text-muted-foreground transition-colors hover:text-foreground sm:text-sm"
+          className="flex cursor-pointer items-center text-lg font-medium text-muted-foreground transition-colors hover:text-foreground sm:text-sm" target="_blank"
         >
           DevRel
         </Link>
@@ -32,12 +32,12 @@ export function Header2() {
           href="https://www.builtfor.dev/#difference"
           className="flex cursor-pointer items-center text-lg font-medium text-muted-foreground transition-colors hover:text-foreground sm:text-sm"
         >
-          Why Us?
+          Why Us
         </Link>
       </nav>
       <div className="hidden items-center gap-2 md:flex flex-1 justify-end">
         <Button asChild variant="secondary" className="text-black">
-          <Link href="https://blt4.dev/sprint" className="cursor-pointer">
+          <Link href="https://blt4.dev/sprint" className="cursor-pointer" target="_blank">
             Get Started
           </Link>
         </Button>
