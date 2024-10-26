@@ -3,7 +3,7 @@ export function CtaSection2() {
 
 	return (
 		<section className='container'>
-			<div className='flex flex-col items-center gap-6 rounded-xl bg-primary px-6 sm:gap-10 bg-accent py-16'>
+			<div className='flex flex-col items-center gap-6 rounded-xl px-6 sm:gap-10 bg-accent py-16'>
 				<h3 className='font-bold uppercase text-background'>
 					Wanna know the industry secrets?
 				</h3>
