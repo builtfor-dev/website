@@ -70,7 +70,7 @@ export function Component4() {
             </Button>
           </CardContent>
         </Card>
-        <Card className="relative shadow-lg">
+        <Card className="relative shadow-lg border-primary">
           <CardContent className="flex flex-col items-start p-7">
             <h4 className="font-heading text-2xl font-semibold text-foreground">The A-Team</h4>
             <p className="mt-2 text-muted-foreground">
@@ -127,7 +127,7 @@ export function Component4() {
             Expert Team
           </span>
         </Card>
-        <Card className="relative shadow-lg border-2 border-primary">
+        <Card className="relative shadow-lg border-2">
           <CardContent className="flex flex-col items-start p-7">
             <h4 className="font-heading text-2xl font-semibold text-foreground">The B-Team</h4>
             <p className="mt-2 text-muted-foreground">
