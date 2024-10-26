@@ -12,7 +12,7 @@ export function CtaSection3() {
         Show developers you understand their needs with a process that gets to know them deeply
       </p>
       <Button size="lg" asChild variant="secondary" className="cursor-pointer border-border">
-        <Link href="https://blt4.dev/consult">Let&apos;s Talk</Link>
+        <Link href="https://blt4.dev/consult" target="_blank">Let&apos;s Talk</Link>
       </Button>
     </section>
   );

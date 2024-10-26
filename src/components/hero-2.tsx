@@ -21,10 +21,10 @@ export function Hero2() {
       </p>
       <div className="grid grid-cols-2 gap-3">
         <Button size="lg" asChild variant="default" className="cursor-pointer border-border">
-          <Link href="https://blt4.dev/consult">Let&apos;s Talk</Link>
+          <Link href="https://blt4.dev/consult" target="_blank">Let&apos;s Talk</Link>
         </Button>
         <Button size="lg" asChild variant="secondary" className="cursor-pointer text-black">
-          <Link href="https://blt4.dev/sprint">Ready to Run?</Link>
+          <Link href="https://blt4.dev/sprint" target="_blank">Ready to Run?</Link>
         </Button>
       </div>
       <div className="relative sm:mt-8">

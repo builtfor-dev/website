@@ -54,13 +54,13 @@ export function Component2() {
           <Button size="lg" asChild variant="default">
             <Link
               href="https://blt4.dev/doneforyou"
-              className="h-12 cursor-pointer border-border text-base md:px-9"
+              className="h-12 cursor-pointer border-border text-base md:px-9" target="_blank"
             >
               View Pricing
             </Link>
           </Button>
           <Button size="lg" asChild variant="secondary">
-            <Link href="https://blt4.dev/sprint" className="h-12 cursor-pointer text-base md:px-9">
+            <Link href="https://blt4.dev/sprint" className="h-12 cursor-pointer text-base md:px-9" target="_blank">
               Book Sprint
             </Link>
           </Button>
