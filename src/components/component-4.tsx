@@ -70,14 +70,14 @@ export function Component4() {
             </Button>
           </CardContent>
         </Card>
-        <Card className="relative shadow-lg border-2 border-primary">
+        <Card className="relative shadow-lg">
           <CardContent className="flex flex-col items-start p-7">
-            <h4 className="font-heading text-2xl font-semibold text-foreground">The B-Team</h4>
+            <h4 className="font-heading text-2xl font-semibold text-foreground">The A-Team</h4>
             <p className="mt-2 text-muted-foreground">
-              For Dev Tools Looking to Grow Their Credibility and Revenue
+              For Well-Funded Dev Tools Looking to Maximize Outcomes
             </p>
             <div className="mt-5">
-              <span className="font-heading text-5xl font-semibold">$5,280</span>
+              <span className="font-heading text-5xl font-semibold">$7,920</span>
             </div>
             <ul className="space-y-2 mt-9">
               <li className="flex items-center gap-2">
@@ -124,17 +124,17 @@ export function Component4() {
             </Button>
           </CardContent>
           <span className="absolute inset-x-0 -top-5 mx-auto w-32 rounded-full bg-primary px-3 py-2 text-center text-sm font-semibold text-primary-foreground shadow-md">
-            Most popular
+            Expert Team
           </span>
         </Card>
-        <Card className="relative shadow-lg">
+        <Card className="relative shadow-lg border-2 border-primary">
           <CardContent className="flex flex-col items-start p-7">
-            <h4 className="font-heading text-2xl font-semibold text-foreground">The A-Team</h4>
+            <h4 className="font-heading text-2xl font-semibold text-foreground">The B-Team</h4>
             <p className="mt-2 text-muted-foreground">
-              For Well-Funded Dev Tools Looking to Maximize Outcomes
+              For Dev Tools Looking to Grow Their Credibility and Revenue
             </p>
             <div className="mt-5">
-              <span className="font-heading text-5xl font-semibold">$7,920</span>
+              <span className="font-heading text-5xl font-semibold">$5,280</span>
             </div>
             <ul className="space-y-2 mt-9">
               <li className="flex items-center gap-2">
