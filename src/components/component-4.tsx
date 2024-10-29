@@ -41,7 +41,7 @@ export function Component4() {
               <li className="flex items-center gap-3">
                 <Check size={15} className="text-accent" />
                 <span className="text-sm text-muted-foreground">
-                  Capture key feedback from prospects and customers
+                  Key prospect and customer feedback
                 </span>
               </li>
               <li className="flex items-center gap-3">
@@ -58,12 +58,12 @@ export function Component4() {
               </li>
               <li className="flex items-center gap-3">
                 <X size={15} className="text-destructive" />
-                <span className="text-sm text-muted-foreground">Dev storytelling framework and pitch</span>
+                <span className="text-sm text-muted-foreground">Storytelling workdshop and pitch</span>
               </li>
               <li className="flex items-center gap-3">
                 <X size={15} className="text-destructive" />
                 <span className="text-sm text-muted-foreground">
-                  Journey map and adoption pipeline with key metrics
+                  Journey, pipeline, and metrics
                 </span>
               </li>
               <li className="flex items-center gap-3">
@@ -101,7 +101,7 @@ export function Component4() {
               <li className="flex items-center gap-3">
                 <Check size={15} className="text-accent" />
                 <span className="text-sm text-muted-foreground">
-                  Capture key feedback from prospects and customers
+                  Key prospect and customer feedback
                 </span>
               </li>
               <li className="flex items-center gap-3">
@@ -118,12 +118,12 @@ export function Component4() {
               </li>
               <li className="flex items-center gap-3">
                 <Check size={15} className="text-accent" />
-                <span className="text-sm text-muted-foreground">Dev storytelling framework and pitch</span>
+                <span className="text-sm text-muted-foreground">Storytelling workdshop and pitch</span>
               </li>
               <li className="flex items-center gap-3">
                 <Check size={15} className="text-accent" />
                 <span className="text-sm text-muted-foreground">
-                  Journey map and adoption pipeline with key metrics
+                  Journey, pipeline, and metrics
                 </span>
               </li>
               <li className="flex items-center gap-3">
@@ -164,7 +164,7 @@ export function Component4() {
               <li className="flex items-center gap-3">
                 <Check size={15} className="text-accent" />
                 <span className="text-sm text-muted-foreground">
-                  Capture key feedback from prospects and customers
+                  Key prospect and customer feedback
                 </span>
               </li>
               <li className="flex items-center gap-3">
@@ -181,12 +181,12 @@ export function Component4() {
               </li>
               <li className="flex items-center gap-3">
                 <Check size={15} className="text-accent" />
-                <span className="text-sm text-muted-foreground">Dev storytelling framework and pitch</span>
+                <span className="text-sm text-muted-foreground">Storytelling workdshop and pitch</span>
               </li>
               <li className="flex items-center gap-3">
                 <X size={15} className="text-destructive" />
                 <span className="text-sm text-muted-foreground">
-                  Journey map and adoption pipeline with key metrics
+                  Journey, pipeline, and metrics
                 </span>
               </li>
               <li className="flex items-center gap-3">
