@@ -58,7 +58,7 @@ export function Component4() {
               </li>
               <li className="flex items-center gap-3">
                 <X size={15} className="text-destructive" />
-                <span className="text-sm text-muted-foreground">Storytelling workdshop and pitch</span>
+                <span className="text-sm text-muted-foreground">Storytelling workshop and pitch</span>
               </li>
               <li className="flex items-center gap-3">
                 <X size={15} className="text-destructive" />
@@ -118,7 +118,7 @@ export function Component4() {
               </li>
               <li className="flex items-center gap-3">
                 <Check size={15} className="text-accent" />
-                <span className="text-sm text-muted-foreground">Storytelling workdshop and pitch</span>
+                <span className="text-sm text-muted-foreground">Storytelling workshop and pitch</span>
               </li>
               <li className="flex items-center gap-3">
                 <Check size={15} className="text-accent" />
@@ -181,7 +181,7 @@ export function Component4() {
               </li>
               <li className="flex items-center gap-3">
                 <Check size={15} className="text-accent" />
-                <span className="text-sm text-muted-foreground">Storytelling workdshop and pitch</span>
+                <span className="text-sm text-muted-foreground">Storytelling workshop and pitch</span>
               </li>
               <li className="flex items-center gap-3">
                 <X size={15} className="text-destructive" />
