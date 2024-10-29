@@ -18,7 +18,7 @@ export function Component4() {
       <div className="mt-7 grid w-full grid-cols-1 gap-7 lg:grid-cols-3">
         <Card className="relative shadow-lg">
           <CardContent className="flex flex-col items-start p-7">
-            <h4 className="font-heading text-2xl font-semibold text-foreground">One on One</h4>
+            <h4 className="font-heading text-2xl font-semibold text-foreground">Starter</h4>
             <p className="mt-2 text-muted-foreground">
               For Solo Dev Tool Founders Looking to Establish Roots
             </p>
@@ -40,17 +40,19 @@ export function Component4() {
               </li>
               <li className="flex items-center gap-2">
                 <Check size={20} className="text-primary" />
-                <span className="text-sm text-muted-foreground">Dev experience audit report</span>
+                <span className="text-sm text-muted-foreground">
+                  Capture key feedback from prospects and customers
+                </span>
+              </li>
+              <li className="flex items-center gap-2">
+                <X size={20} className="text-destructive" />
+                <span className="text-sm text-muted-foreground">Curated tech advisory board</span>
               </li>
               <li className="flex items-center gap-2">
                 <Check size={20} className="text-primary" />
                 <span className="text-sm text-muted-foreground">
-                  Journey map with success metrics
+                  Journey map and adoption pipeline with key metrics
                 </span>
-              </li>
-              <li className="flex items-center gap-2">
-                <Check size={20} className="text-primary" />
-                <span className="text-sm text-muted-foreground">Dev Storytelling framework</span>
               </li>
               <li className="flex items-center gap-2">
                 <Check size={20} className="text-primary" />
@@ -61,8 +63,12 @@ export function Component4() {
                 <span className="text-sm text-muted-foreground">90-day implementation roadmap</span>
               </li>
               <li className="flex items-center gap-2">
-                <X size={20} className="text-primary text-destructive" />
-                <span className="text-sm text-muted-foreground">We bring your TAB members</span>
+                <X size={20} className="text-destructive" />
+                <span className="text-sm text-muted-foreground">Dev storytelling framework and pitch</span>
+              </li>
+              <li className="flex items-center gap-2">
+                <X size={20} className="text-destructive" />
+                <span className="text-sm text-muted-foreground">Dev experience audit report</span>
               </li>
             </ul>
             <Button size="lg" asChild className="mt-10 w-full">
@@ -72,9 +78,9 @@ export function Component4() {
         </Card>
         <Card className="relative shadow-lg border-primary">
           <CardContent className="flex flex-col items-start p-7">
-            <h4 className="font-heading text-2xl font-semibold text-foreground">The A-Team</h4>
+            <h4 className="font-heading text-2xl font-semibold text-foreground">Accelerate</h4>
             <p className="mt-2 text-muted-foreground">
-              For Well-Funded Dev Tools Looking to Maximize Outcomes
+              For Well-Funded Dev Tools Looking to Maximize Outcomes and Scale
             </p>
             <div className="mt-5">
               <span className="font-heading text-5xl font-semibold">$7,920</span>
@@ -94,17 +100,19 @@ export function Component4() {
               </li>
               <li className="flex items-center gap-2">
                 <Check size={20} className="text-primary" />
-                <span className="text-sm text-muted-foreground">Dev experience audit report</span>
-              </li>
-              <li className="flex items-center gap-2">
-                <Check size={20} className="text-primary" />
                 <span className="text-sm text-muted-foreground">
-                  Journey map with success metrics
+                  Capture key feedback from prospects and customers
                 </span>
               </li>
               <li className="flex items-center gap-2">
                 <Check size={20} className="text-primary" />
-                <span className="text-sm text-muted-foreground">Dev Storytelling framework</span>
+                <span className="text-sm text-muted-foreground">Curated tech advisory board</span>
+              </li>
+              <li className="flex items-center gap-2">
+                <Check size={20} className="text-primary" />
+                <span className="text-sm text-muted-foreground">
+                  Journey map and adoption pipeline with key metrics
+                </span>
               </li>
               <li className="flex items-center gap-2">
                 <Check size={20} className="text-primary" />
@@ -116,7 +124,11 @@ export function Component4() {
               </li>
               <li className="flex items-center gap-2">
                 <Check size={20} className="text-primary" />
-                <span className="text-sm text-muted-foreground">We bring your TAB members</span>
+                <span className="text-sm text-muted-foreground">Dev storytelling framework and pitch</span>
+              </li>
+              <li className="flex items-center gap-2">
+                <Check size={20} className="text-primary" />
+                <span className="text-sm text-muted-foreground">Dev experience audit report</span>
               </li>
             </ul>
             <Button size="lg" asChild className="mt-10 w-full">
@@ -124,12 +136,12 @@ export function Component4() {
             </Button>
           </CardContent>
           <span className="absolute inset-x-0 -top-5 mx-auto w-32 rounded-full bg-primary px-3 py-2 text-center text-sm font-semibold text-primary-foreground shadow-md">
-            Expert Team
+            Best Results
           </span>
         </Card>
         <Card className="relative shadow-lg border-2">
           <CardContent className="flex flex-col items-start p-7">
-            <h4 className="font-heading text-2xl font-semibold text-foreground">The B-Team</h4>
+            <h4 className="font-heading text-2xl font-semibold text-foreground">Scale Up</h4>
             <p className="mt-2 text-muted-foreground">
               For Dev Tools Looking to Grow Their Credibility and Revenue
             </p>
@@ -151,17 +163,19 @@ export function Component4() {
               </li>
               <li className="flex items-center gap-2">
                 <Check size={20} className="text-primary" />
-                <span className="text-sm text-muted-foreground">Dev experience audit report</span>
-              </li>
-              <li className="flex items-center gap-2">
-                <Check size={20} className="text-primary" />
                 <span className="text-sm text-muted-foreground">
-                  Journey map with success metrics
+                  Capture key feedback from prospects and customers
                 </span>
               </li>
               <li className="flex items-center gap-2">
                 <Check size={20} className="text-primary" />
-                <span className="text-sm text-muted-foreground">Dev Storytelling framework</span>
+                <span className="text-sm text-muted-foreground">Curated tech advisory board</span>
+              </li>
+              <li className="flex items-center gap-2">
+                <Check size={20} className="text-primary" />
+                <span className="text-sm text-muted-foreground">
+                  Journey map and adoption pipeline with key metrics
+                </span>
               </li>
               <li className="flex items-center gap-2">
                 <Check size={20} className="text-primary" />
@@ -173,7 +187,11 @@ export function Component4() {
               </li>
               <li className="flex items-center gap-2">
                 <Check size={20} className="text-primary" />
-                <span className="text-sm text-muted-foreground">We bring your TAB members</span>
+                <span className="text-sm text-muted-foreground">Dev storytelling framework and pitch</span>
+              </li>
+              <li className="flex items-center gap-2">
+                <X size={20} className="text-destructive" />
+                <span className="text-sm text-muted-foreground">Dev experience audit report</span>
               </li>
             </ul>
             <Button size="lg" asChild className="mt-10 w-full">
