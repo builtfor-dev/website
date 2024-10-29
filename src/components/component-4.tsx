@@ -41,7 +41,7 @@ export function Component4() {
               <li className="flex items-center gap-3">
                 <Check size={15} className="text-accent" />
                 <span className="text-sm text-muted-foreground">
-                  Key prospect and customer feedback
+                  Prospect and customer insights
                 </span>
               </li>
               <li className="flex items-center gap-3">
@@ -101,7 +101,7 @@ export function Component4() {
               <li className="flex items-center gap-3">
                 <Check size={15} className="text-accent" />
                 <span className="text-sm text-muted-foreground">
-                  Key prospect and customer feedback
+                  Prospect and customer insights
                 </span>
               </li>
               <li className="flex items-center gap-3">
@@ -164,7 +164,7 @@ export function Component4() {
               <li className="flex items-center gap-3">
                 <Check size={15} className="text-accent" />
                 <span className="text-sm text-muted-foreground">
-                  Key prospect and customer feedback
+                  Prospect and customer insights
                 </span>
               </li>
               <li className="flex items-center gap-3">
