@@ -80,7 +80,7 @@ export function Component4() {
           <CardContent className="flex flex-col items-start p-7">
             <h4 className="font-heading text-2xl font-semibold text-foreground">Accelerate</h4>
             <p className="mt-2 text-muted-foreground">
-              For Well-Funded Dev Tools Looking to Maximize Outcomes and Scale
+              For Well-Funded Dev Tools Looking to Maximize Adoption
             </p>
             <div className="mt-5">
               <span className="font-heading text-5xl font-semibold">$7,920</span>
