@@ -46,31 +46,31 @@ export function Header2() {
         <div className="rounded-b-lg bg-background py-4 container text-foreground shadow-xl">
           <nav className="flex flex-col gap-1 pt-2">
             <Link
-              href="/about"
+              href="https://blt4.dev/sprint"
               className="flex w-full cursor-pointer items-center rounded-md p-2 font-medium text-muted-foreground hover:text-foreground"
             >
               Sprint
             </Link>
             <Link
-              href="/docs"
+              href="https://blt4.dev/doneforyou"
               className="flex w-full cursor-pointer items-center rounded-md p-2 font-medium text-muted-foreground hover:text-foreground"
             >
               DevRel
             </Link>
             <Link
-              href="/pricing"
+              href="https://www.builtfor.dev/#pricing"
               className="flex w-full cursor-pointer items-center rounded-md p-2 font-medium text-muted-foreground hover:text-foreground"
             >
               Pricing
             </Link>
             <Link
-              href="/blog"
+              href="https://www.builtfor.dev/#difference"
               className="flex w-full cursor-pointer items-center rounded-md p-2 font-medium text-muted-foreground hover:text-foreground"
             >
               Results
             </Link>
             <Button size="lg" asChild className="mt-2 w-full">
-              <Link href="#" className="cursor-pointer">
+              <Link href="https://blt4.dev/sprint" className="cursor-pointer" target="_blank">
                 Get Started
               </Link>
             </Button>
