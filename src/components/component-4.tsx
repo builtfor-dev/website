@@ -27,47 +27,47 @@ export function Component4() {
             </div>
             <ul className="space-y-2 mt-9">
               <li className="flex items-center gap-3">
-                <Check size={20} className="text-accent" />
+                <Check size={15} className="text-accent" />
                 <span className="text-sm text-muted-foreground">
                   Validated market fit hypothesis
                 </span>
               </li>
               <li className="flex items-center gap-3">
-                <Check size={20} className="text-accent" />
+                <Check size={15} className="text-accent" />
                 <span className="text-sm text-muted-foreground">
                   Prioritized use case definition
                 </span>
               </li>
               <li className="flex items-center gap-3">
-                <Check size={20} className="text-accent" />
+                <Check size={15} className="text-accent" />
                 <span className="text-sm text-muted-foreground">
                   Capture key feedback from prospects and customers
                 </span>
               </li>
               <li className="flex items-center gap-3">
-                <Check size={20} className="text-accent" />
+                <Check size={15} className="text-accent" />
+                <span className="text-sm text-muted-foreground">Comprehensive GTM playbook</span>
+              </li>
+              <li className="flex items-center gap-3">
+                <Check size={15} className="text-accent" />
+                <span className="text-sm text-muted-foreground">90-day implementation roadmap</span>
+              </li>
+              <li className="flex items-center gap-3">
+                <X size={15} className="text-destructive" />
+                <span className="text-sm text-muted-foreground">Curated tech advisory board</span>
+              </li>
+              <li className="flex items-center gap-3">
+                <X size={15} className="text-destructive" />
+                <span className="text-sm text-muted-foreground">Dev storytelling framework and pitch</span>
+              </li>
+              <li className="flex items-center gap-3">
+                <X size={15} className="text-destructive" />
                 <span className="text-sm text-muted-foreground">
                   Journey map and adoption pipeline with key metrics
                 </span>
               </li>
               <li className="flex items-center gap-3">
-                <Check size={20} className="text-accent" />
-                <span className="text-sm text-muted-foreground">Comprehensive GTM playbook</span>
-              </li>
-              <li className="flex items-center gap-3">
-                <Check size={20} className="text-accent" />
-                <span className="text-sm text-muted-foreground">90-day implementation roadmap</span>
-              </li>
-              <li className="flex items-center gap-3">
-                <X size={20} className="text-destructive" />
-                <span className="text-sm text-muted-foreground">Curated tech advisory board</span>
-              </li>
-              <li className="flex items-center gap-3">
-                <X size={20} className="text-destructive" />
-                <span className="text-sm text-muted-foreground">Dev storytelling framework and pitch</span>
-              </li>
-              <li className="flex items-center gap-3">
-                <X size={20} className="text-destructive" />
+                <X size={15} className="text-destructive" />
                 <span className="text-sm text-muted-foreground">Dev experience audit report</span>
               </li>
             </ul>
@@ -87,47 +87,47 @@ export function Component4() {
             </div>
             <ul className="space-y-2 mt-9">
               <li className="flex items-center gap-3">
-                <Check size={20} className="text-accent" />
+                <Check size={15} className="text-accent" />
                 <span className="text-sm text-muted-foreground">
                   Validated market fit hypothesis
                 </span>
               </li>
               <li className="flex items-center gap-3">
-                <Check size={20} className="text-accent" />
+                <Check size={15} className="text-accent" />
                 <span className="text-sm text-muted-foreground">
                   Prioritized use case definition
                 </span>
               </li>
               <li className="flex items-center gap-3">
-                <Check size={20} className="text-accent" />
+                <Check size={15} className="text-accent" />
                 <span className="text-sm text-muted-foreground">
                   Capture key feedback from prospects and customers
                 </span>
               </li>
               <li className="flex items-center gap-3">
-                <Check size={20} className="text-accent" />
+                <Check size={15} className="text-accent" />
+                <span className="text-sm text-muted-foreground">Comprehensive GTM playbook</span>
+              </li>
+              <li className="flex items-center gap-3">
+                <Check size={15} className="text-accent" />
+                <span className="text-sm text-muted-foreground">90-day implementation roadmap</span>
+              </li>
+              <li className="flex items-center gap-3">
+                <Check size={15} className="text-accent" />
+                <span className="text-sm text-muted-foreground">Curated tech advisory board</span>
+              </li>
+              <li className="flex items-center gap-3">
+                <Check size={15} className="text-accent" />
+                <span className="text-sm text-muted-foreground">Dev storytelling framework and pitch</span>
+              </li>
+              <li className="flex items-center gap-3">
+                <Check size={15} className="text-accent" />
                 <span className="text-sm text-muted-foreground">
                   Journey map and adoption pipeline with key metrics
                 </span>
               </li>
               <li className="flex items-center gap-3">
-                <Check size={20} className="text-accent" />
-                <span className="text-sm text-muted-foreground">Comprehensive GTM playbook</span>
-              </li>
-              <li className="flex items-center gap-3">
-                <Check size={20} className="text-accent" />
-                <span className="text-sm text-muted-foreground">90-day implementation roadmap</span>
-              </li>
-              <li className="flex items-center gap-3">
-                <Check size={20} className="text-accent" />
-                <span className="text-sm text-muted-foreground">Curated tech advisory board</span>
-              </li>
-              <li className="flex items-center gap-3">
-                <Check size={20} className="text-accent" />
-                <span className="text-sm text-muted-foreground">Dev storytelling framework and pitch</span>
-              </li>
-              <li className="flex items-center gap-3">
-                <Check size={20} className="text-accent" />
+                <Check size={15} className="text-accent" />
                 <span className="text-sm text-muted-foreground">Dev experience audit report</span>
               </li>
             </ul>
@@ -150,47 +150,47 @@ export function Component4() {
             </div>
             <ul className="space-y-2 mt-9">
               <li className="flex items-center gap-3">
-                <Check size={20} className="text-accent" />
+                <Check size={15} className="text-accent" />
                 <span className="text-sm text-muted-foreground">
                   Validated market fit hypothesis
                 </span>
               </li>
               <li className="flex items-center gap-3">
-                <Check size={20} className="text-accent" />
+                <Check size={15} className="text-accent" />
                 <span className="text-sm text-muted-foreground">
                   Prioritized use case definition
                 </span>
               </li>
               <li className="flex items-center gap-3">
-                <Check size={20} className="text-accent" />
+                <Check size={15} className="text-accent" />
                 <span className="text-sm text-muted-foreground">
                   Capture key feedback from prospects and customers
                 </span>
               </li>
               <li className="flex items-center gap-3">
-                <Check size={20} className="text-accent" />
+                <Check size={15} className="text-accent" />
+                <span className="text-sm text-muted-foreground">Comprehensive GTM playbook</span>
+              </li>
+              <li className="flex items-center gap-3">
+                <Check size={15} className="text-accent" />
+                <span className="text-sm text-muted-foreground">90-day implementation roadmap</span>
+              </li>
+              <li className="flex items-center gap-3">
+                <Check size={15} className="text-accent" />
+                <span className="text-sm text-muted-foreground">Curated tech advisory board</span>
+              </li>
+              <li className="flex items-center gap-3">
+                <Check size={15} className="text-accent" />
+                <span className="text-sm text-muted-foreground">Dev storytelling framework and pitch</span>
+              </li>
+              <li className="flex items-center gap-3">
+                <X size={15} className="text-destructive" />
                 <span className="text-sm text-muted-foreground">
                   Journey map and adoption pipeline with key metrics
                 </span>
               </li>
               <li className="flex items-center gap-3">
-                <Check size={20} className="text-accent" />
-                <span className="text-sm text-muted-foreground">Comprehensive GTM playbook</span>
-              </li>
-              <li className="flex items-center gap-3">
-                <Check size={20} className="text-accent" />
-                <span className="text-sm text-muted-foreground">90-day implementation roadmap</span>
-              </li>
-              <li className="flex items-center gap-3">
-                <Check size={20} className="text-accent" />
-                <span className="text-sm text-muted-foreground">Curated tech advisory board</span>
-              </li>
-              <li className="flex items-center gap-3">
-                <Check size={20} className="text-accent" />
-                <span className="text-sm text-muted-foreground">Dev storytelling framework and pitch</span>
-              </li>
-              <li className="flex items-center gap-3">
-                <X size={20} className="text-destructive" />
+                <X size={15} className="text-destructive" />
                 <span className="text-sm text-muted-foreground">Dev experience audit report</span>
               </li>
             </ul>
