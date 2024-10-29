@@ -143,7 +143,7 @@ export function Component4() {
           <CardContent className="flex flex-col items-start p-7">
             <h4 className="font-heading text-2xl font-semibold text-foreground">Scale Up</h4>
             <p className="mt-2 text-muted-foreground">
-              For Dev Tools Looking to Grow Their Credibility and Revenue
+              For Dev Tools Looking to Grow Their Credibility and Early Revenue
             </p>
             <div className="mt-5">
               <span className="font-heading text-5xl font-semibold">$5,280</span>
