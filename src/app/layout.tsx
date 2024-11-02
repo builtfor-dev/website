@@ -36,6 +36,7 @@ export default function RootLayout({
 				)}
 			>
 				{children}
+        <script src="https://cdn.usefathom.com/script.js" data-site="RBOXQTPO" defer></script>
 			</body>
 		</html>
 	)
