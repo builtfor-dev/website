@@ -55,7 +55,7 @@ export function Component() {
           <li className="flex items-center gap-2">
             <Check size={24} className="size-5 text-primary" />
             <span className="text-muted-foreground">
-              No time? We&apos;ll build and manage your developer relations program for you
+              No time? We&apos;ll manage your developer relations program for you
             </span>
           </li>
         </ul>
