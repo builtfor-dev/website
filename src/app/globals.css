@@ -53,3 +53,5 @@
     @apply bg-background text-foreground;
   }
 }
+
+nav a {white-space: nowrap;}

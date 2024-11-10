@@ -34,6 +34,13 @@ export function Header2() {
         >
           Why Us
         </Link>
+        <Link
+          href="https://blt4.dev/blog"
+          className="flex cursor-pointer items-center text-lg font-medium text-muted-foreground transition-colors hover:text-foreground sm:text-sm"
+        >
+          
+          Blog
+        </Link>
       </nav>
       <div className="hidden items-center gap-2 md:flex flex-1 justify-end">
         <Button asChild variant="secondary" className="text-black">
@@ -68,6 +75,13 @@ export function Header2() {
               className="flex w-full cursor-pointer items-center rounded-md p-2 font-medium text-muted-foreground hover:text-foreground"
             >
               Results
+            </Link>
+            <Link
+              href="https://blt4.dev/blog"
+              className="flex cursor-pointer items-center text-lg font-medium text-muted-foreground transition-colors hover:text-foreground sm:text-sm"
+            >
+              
+              Blog
             </Link>
             <Button size="lg" asChild className="mt-2 w-full">
               <Link href="https://blt4.dev/sprint" className="cursor-pointer" target="_blank">
