@@ -35,11 +35,11 @@ export function Header2() {
           Why Us
         </Link>
         <Link
-          href="https://blt4.dev/blog"
-          className="flex cursor-pointer items-center text-lg font-medium text-muted-foreground transition-colors hover:text-foreground sm:text-sm"
+          href="https://blt4.dev/playbook"
+          className="flex cursor-pointer items-center text-lg font-medium text-muted-foreground transition-colors hover:text-foreground sm:text-sm" target="_blank"
         >
           
-          Blog
+          Playbook
         </Link>
       </nav>
       <div className="hidden items-center gap-2 md:flex flex-1 justify-end">
@@ -77,11 +77,10 @@ export function Header2() {
               Results
             </Link>
             <Link
-              href="https://blt4.dev/blog"
-              className="flex cursor-pointer items-center text-lg font-medium text-muted-foreground transition-colors hover:text-foreground sm:text-sm"
+              href="https://blt4.dev/playbook"
+              className="flex w-full cursor-pointer items-center rounded-md p-2 font-medium text-muted-foreground hover:text-foreground" target="_blank"
             >
-              
-              Blog
+              Playbook
             </Link>
             <Button size="lg" asChild className="mt-2 w-full">
               <Link href="https://blt4.dev/sprint" className="cursor-pointer" target="_blank">
