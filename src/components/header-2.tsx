@@ -14,13 +14,13 @@ export function Header2() {
           href="https://blt4.dev/sprint"
           className="flex cursor-pointer items-center text-lg font-medium text-muted-foreground transition-colors hover:text-foreground sm:text-sm" target="_blank"
         >
-          Sprint
+          DevRel Plan
         </Link>
         <Link
           href="https://blt4.dev/doneforyou"
           className="flex cursor-pointer items-center text-lg font-medium text-muted-foreground transition-colors hover:text-foreground sm:text-sm" target="_blank"
         >
-          DevRel
+          Done-for-You
         </Link>
         <Link
           href="https://www.builtfor.dev/#pricing"
@@ -56,13 +56,13 @@ export function Header2() {
               href="https://blt4.dev/sprint"
               className="flex w-full cursor-pointer items-center rounded-md p-2 font-medium text-muted-foreground hover:text-foreground"
             >
-              Sprint
+              DevRel Plan
             </Link>
             <Link
               href="https://blt4.dev/doneforyou"
               className="flex w-full cursor-pointer items-center rounded-md p-2 font-medium text-muted-foreground hover:text-foreground"
             >
-              DevRel
+              Done-for-You
             </Link>
             <Link
               href="https://www.builtfor.dev/#pricing"
