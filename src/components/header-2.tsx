@@ -36,7 +36,7 @@ export function Header2() {
         </Link>
         <Link
           href="https://blt4.dev/playbook"
-          className="flex cursor-pointer items-center text-lg font-medium text-muted-foreground transition-colors hover:text-foreground sm:text-sm"
+          className="flex cursor-pointer items-center text-lg font-medium text-muted-foreground transition-colors hover:text-foreground sm:text-sm" target="_blank"
         >
           
           Playbook
@@ -78,7 +78,7 @@ export function Header2() {
             </Link>
             <Link
               href="https://blt4.dev/playbook"
-              className="flex w-full cursor-pointer items-center rounded-md p-2 font-medium text-muted-foreground hover:text-foreground"
+              className="flex w-full cursor-pointer items-center rounded-md p-2 font-medium text-muted-foreground hover:text-foreground" target="_blank"
             >
               Playbook
             </Link>
