@@ -1,72 +1,81 @@
-import { Code, Languages, Megaphone } from "lucide-react";
+import { Check, X } from "lucide-react";
+import Link from "next/link";
+import Image from "next/image";
 
-import { Card, CardContent } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
 
-export function Features() {
+export function FeaturesSection() {
   return (
-    <section className="container flex flex-col items-center gap-6 py-24 sm:gap-7">
-      <div className="flex flex-col gap-3">
-        <span className="font-bold uppercase text-primary text-center">How We Do It</span>
-        <h2 className="font-heading text-3xl font-semibold tracking-tight sm:text-4xl text-balance text-center">
-          Love your product?
-        </h2>
-        <h2 className="font-heading text-3xl font-semibold tracking-tight sm:text-4xl text-balance text-center">
-          Get developers to love it too.
-        </h2>
+    <section className="container flex flex-col gap-10 md:flex-row md:items-center md:gap-24 pb-14 pt-24">
+      <div className="flex flex-1 flex-col items-start gap-5">
+        <div className="flex flex-col gap-3">
+          <span className="font-bold uppercase text-left text-secondary">Case Study</span>
+          <h2 className="font-heading text-3xl font-semibold tracking-tight text-balance text-left">
+            Real Results from a Developer Audit
+          </h2>
+        </div>
+        <h4 className="text-lg text-muted-foreground text-balance max-w-lg text-left font-semibold">
+          From no developer AHA Moment to #1 Product of the Day and Week on Product Hunt
+        </h4>
+        <ul className="mt-4 space-y-3">
+          <li className="flex items-center gap-2">
+            <Check size={24} className="size-5 text-primary" />
+            <span className="text-muted-foreground">Developers could get the tool running</span>
+          </li>
+          <li className="flex items-center gap-2">
+            <Check size={24} className="size-5 text-primary" />
+            <span className="text-muted-foreground">Documentation was comprehensive</span>
+          </li>
+          <li className="flex items-center gap-2">
+            <X size={24} className="size-5 text-destructive" />
+            <span className="text-muted-foreground">
+              Couldn&apos;t quickly grasp what was possible
+            </span>
+          </li>
+          <li className="flex items-center gap-2">
+            <X size={24} className="size-5 text-destructive" />
+            <span className="text-muted-foreground">
+              No clear path to that &quot;aha&quot; moment
+            </span>
+          </li>
+        </ul>
+        <p className="text-lg text-muted-foreground text-sm">
+          Problem: A technically solid product was preparing for their public debut and asked our
+          team to audit their experience.
+        </p>
+        <p className="text-lg text-muted-foreground text-sm">
+          Key Fix: Interactive playground that let developers experience the value immediately.
+        </p>
+        <p className="text-muted-foreground text-balance text-sm">
+          Result: #1 Product of the Day and Week on Product Hunt. 🔥
+        </p>
+        <div className="mt-4 grid grid-cols-2 gap-3">
+          <Button size="lg" asChild variant="outline" className="hover:bg-foreground">
+            <Link
+              href="https://blt4.dev/agentqlplay"
+              className="h-12 cursor-pointer border-border text-base md:px-9"
+            >
+              Visit the Playground
+            </Link>
+          </Button>
+          <Button size="lg" asChild variant="secondary">
+            <Link
+              href="https://www.youtube.com/watch?v=A05VCF2_JF0"
+              className="h-12 cursor-pointer text-base md:px-9"
+            >
+              Watch Dev Audit
+            </Link>
+          </Button>
+        </div>
       </div>
-      <p className="text-lg text-muted-foreground text-balance text-center max-w-2xl">
-        We work with actual developers in your target audience to validate what makes your tool
-        valuable, identify who needs it most, and create a clear plan to reach them. By the end,
-        you&apos;ll know exactly how to tell your tool&apos;s story and get it in front of the right
-        developers.
-      </p>
-      <div className="mt-6 grid auto-rows-fr grid-cols-1 gap-7 sm:grid-cols-2 lg:grid-cols-3">
-        <Card className="shadow-lg bg-background">
-          <CardContent className="flex flex-col items-start gap-5 p-7">
-            <div className="inline-flex items-center justify-center rounded-md border border-border bg-secondary p-2 bg-secondary-foreground">
-              <Code size={28} className="text-primary" />
-            </div>
-            <div>
-              <h4 className="mb-2 text-lg font-semibold text-foreground">
-                Show developers your solution
-              </h4>
-              <p className="text-muted-foreground">
-                Help developers discover your tool and see exactly how it makes their job easier.
-              </p>
-            </div>
-          </CardContent>
-        </Card>
-        <Card className="shadow-lg bg-background">
-          <CardContent className="flex flex-col items-start gap-5 p-7">
-            <div className="inline-flex items-center justify-center rounded-md border border-border bg-secondary p-2 bg-secondary-foreground">
-              <Languages size={28} className="text-primary" />
-            </div>
-            <div>
-              <h4 className="mb-2 text-lg font-semibold text-foreground">
-                Speak like your developer
-              </h4>
-              <p className="text-muted-foreground">
-                Share your tool in a way that shows you understand developers’ real-world needs.
-              </p>
-            </div>
-          </CardContent>
-        </Card>
-        <Card className="shadow-lg bg-background">
-          <CardContent className="flex flex-col items-start gap-5 p-7">
-            <div className="inline-flex items-center justify-center rounded-md border border-border bg-secondary p-2 bg-secondary-foreground">
-              <Megaphone size={28} className="text-primary" />
-            </div>
-            <div>
-              <h4 className="mb-2 text-lg font-semibold text-foreground">
-                Make developers tell others
-              </h4>
-              <p className="text-muted-foreground">
-                Create such a smooth experience that developers naturally share your tool with
-                others.
-              </p>
-            </div>
-          </CardContent>
-        </Card>
+      <div className="relative flex-1">
+        <Image
+          alt="AgentQL DX Audit Screenshot"
+          src="/images/agentql-screenshot-audit.png"
+          width={800}
+          height={500}
+          className="shadow-lg"
+        />
       </div>
     </section>
   );

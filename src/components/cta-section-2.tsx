@@ -1,19 +1,35 @@
-export function CtaSection2() {
-	const beehiveForm = `<iframe src="https://embeds.beehiiv.com/986f76fb-6b14-4b93-ad96-341a3542e1a5?slim=true" data-test-id="beehiiv-embed" height="52" width="100%" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;" className="w-6/12"></iframe>`
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
+import { Label } from "@/components/ui/label";
 
-	return (
-		<section className='container'>
-			<div className='flex flex-col items-center gap-6 px-6 sm:gap-10 bg-accent py-16'>
-				<h3 className='font-bold uppercase text-background'>
-					Wanna know the industry secrets?
-				</h3>
-				<h2 className="font-heading text-3xl font-semibold tracking-tight sm:text-4xl text-balance sm:leading-tight text-center text-primary-foreground max-w-2xl">Stay Sharp on Developer Growth</h2>
-				<p className='max-w-xl text-lg text-primary-foreground/80 text-center'>Join the newsletter and receive content on developer tool traction in your inbox.</p>
-				<div
-					className='flex items-center w-8/12'
-					dangerouslySetInnerHTML={{ __html: beehiveForm }}
-				/>
-			</div>
-		</section>
-	)
+export function CtaSection2() {
+  return (
+    <section className="container flex flex-col items-center gap-6 sm:gap-10 pb-28 pt-14">
+      <div className="flex flex-col gap-3">
+        <span className="font-bold uppercase text-secondary text-center">Case Study</span>
+        <h2 className="font-heading text-3xl font-semibold tracking-tight text-balance text-left">
+          What the Client Says
+        </h2>
+      </div>
+      <p className="text-lg text-muted-foreground text-balance text-center max-w-xl">
+        &quot;Tessa&apos;s passion for the DevRel work was very much a differentiating factor. In
+        our conversations, her enthusiasm for a good Dev Experience and DevRel function stood out.
+        It gave us confidence that she&apos;s not only skilled at her craft but also cares deeply
+        about the quality of her work.&quot;&lt;br&gt;
+      </p>
+      <Avatar>
+        <AvatarImage
+          alt="avatar"
+          src="https://wqnmyfkavrotpmupbtou.supabase.co/storage/v1/object/public/assets/1659540882319_e26b0df1-ed9b-4ebd-835e-142c7903980d.jpeg"
+          className="object-cover"
+        />
+        <AvatarFallback>ML</AvatarFallback>
+      </Avatar>
+      <Label>Fiona Hui Li, GTM at AgentQL</Label>
+      <p className="text-lg text-muted-foreground text-balance text-center max-w-xl">
+        &quot;Your advice, guidance and ongoing assistance leading up to this launch has been
+        invaluable. Some of the things that came about from our conversations include, yes, shipping
+        a playground! It&apos;s been such a pleasure to work with you.&quot;&lt;br&gt;
+      </p>
+    </section>
+  );
 }
