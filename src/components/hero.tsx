@@ -5,12 +5,12 @@ import { Button } from "@/components/ui/button";
 
 export function Hero() {
   return (
-    <section className="container flex flex-col items-center gap-8 sm:gap-10 pt-28">
-      <div className="flex items-center gap-1 rounded-full border px-3 py-0.5 bg-background">
+    <section className="container flex flex-col items-center gap-8 pt-28 sm:gap-10">
+      <div className="flex items-center gap-1 rounded-full border bg-background px-3 py-0.5">
         <span className="text-sm text-foreground">Your target devs are already in our network</span>
         <Network size={16} className="text-foreground" />
       </div>
-      <h1 className="max-w-2xl text-center font-heading text-4xl font-semibold tracking-tight">
+      <h1 className="max-w-2xl text-center font-heading text-5xl font-semibold tracking-tight">
         Does reaching the right developers feel impossible?
       </h1>
       <p className="max-w-lg text-center text-lg text-muted-foreground sm:text-xl">

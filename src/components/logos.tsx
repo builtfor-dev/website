@@ -1,8 +1,13 @@
 import { SocialProofLogo2 } from "@/components/social-proof-logo2";
+import { cn } from "@/lib/utils";
 
-export function SocialProof() {
+interface LogosProps {
+  className?: string;
+}
+
+export function Logos({ className }: LogosProps) {
   return (
-    <section className="container flex flex-col items-center gap-10 py-24">
+    <section className={cn("container flex flex-col items-center gap-10 py-24", className)}>
       <h2 className="text-center text-lg font-semibold leading-8">
         Trusted by developers and other ambitious startups like yours
       </h2>
@@ -18,11 +23,11 @@ export function SocialProof() {
         />
         <SocialProofLogo2
           harperDB="https://wqnmyfkavrotpmupbtou.supabase.co/storage/v1/object/public/assets/icons8-twitter-logo-500_c1202572-bedd-4cc2-972f-8ca774ef2d8e.png"
-          className="sm:col-start-2 grayscale"
+          className="grayscale sm:col-start-2"
         />
         <SocialProofLogo2
           harperDB="https://wqnmyfkavrotpmupbtou.supabase.co/storage/v1/object/public/assets/fimio_20e0d8c5-f7c1-445f-b7e8-3ea5681249d8.png"
-          className="col-start-2 sm:col-start-auto grayscale"
+          className="col-start-2 grayscale sm:col-start-auto"
         />
         <SocialProofLogo2
           harperDB="https://wqnmyfkavrotpmupbtou.supabase.co/storage/v1/object/public/assets/flipt_5131d376-3e0a-48b6-8d0f-de57c2b7c835.png"

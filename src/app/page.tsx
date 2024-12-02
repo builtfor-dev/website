@@ -1,28 +1,28 @@
 import { PrimaryHeader } from "@/components/primary-header";
 import { Hero } from "@/components/hero";
-import { SocialProof } from "@/components/social-proof";
+import { Logos } from "@/components/logos";
+import { ClearPathForward } from "@/components/clear-path-forward";
+import { AgentQLCaseStudy } from "@/components/agent-q-l-case-study";
 import { CtaSection } from "@/components/cta-section";
-import { FeaturesSection } from "@/components/features-section";
 import { CtaSection2 } from "@/components/cta-section-2";
-import { CtaSection3 } from "@/components/cta-section-3";
-import { FeaturesSection2 } from "@/components/features-section-2";
-import { Faq } from "@/components/faq";
-import { CtaSection4 } from "@/components/cta-section-4";
+import { FeaturesSection } from "@/components/features-section";
+import { FAQ } from "@/components/f-a-q";
+import { NewsletterSubscribe } from "@/components/newsletter-subscribe";
 import { Footer } from "@/components/footer";
 
-export default function HomePage() {
+export default async function HomePage() {
   return (
     <>
       <PrimaryHeader />
       <Hero />
-      <SocialProof />
+      <Logos />
+      <ClearPathForward />
+      <AgentQLCaseStudy />
       <CtaSection />
-      <FeaturesSection />
       <CtaSection2 />
-      <CtaSection3 />
-      <FeaturesSection2 />
-      <Faq />
-      <CtaSection4 />
+      <FeaturesSection />
+      <FAQ />
+      <NewsletterSubscribe />
       <Footer />
     </>
   );

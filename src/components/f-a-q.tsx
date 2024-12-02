@@ -1,21 +1,26 @@
 import { Accordion } from "@/components/ui/accordion";
 import { FaqItem } from "@/components/faq-item";
+import { cn } from "@/lib/utils";
 
-export function Faq() {
+interface FAQProps {
+  className?: string;
+}
+
+export function FAQ({ className }: FAQProps) {
   return (
-    <section className="container flex flex-col items-center gap-6 py-24 sm:gap-7">
+    <section className={cn("container flex flex-col items-center gap-6 py-24 sm:gap-7", className)}>
       <div className="flex flex-col gap-3">
-        <span className="font-bold uppercase text-primary text-center">
+        <span className="text-center font-bold uppercase text-primary">
           Answers to Your Questions
         </span>
-        <h2 className="font-heading text-3xl font-semibold tracking-tight sm:text-4xl text-balance text-center">
+        <h2 className="text-balance text-center font-heading text-3xl font-semibold tracking-tight sm:text-4xl">
           Frequently Asked Questions
         </h2>
       </div>
-      <p className="text-lg text-muted-foreground text-balance max-w-lg text-center">
+      <p className="max-w-lg text-balance text-center text-lg text-muted-foreground">
         Common questions from technical founders like you.
       </p>
-      <Accordion type="single" collapsible className="mt-6 w-full divide-y max-w-3xl">
+      <Accordion type="single" collapsible className="mt-6 w-full max-w-3xl divide-y">
         <FaqItem
           answer="Not necessarily. What matters is having a working solution that solves a real developer problem. We can work with pre-revenue tools as long as you've validated the technical need."
           question="Do we need to have users or customers already?"
@@ -25,7 +30,7 @@ export function Faq() {
           question="What makes dev tools different from other B2B software?"
         />
         <FaqItem
-          answer='We get technical where it matters for growth. Beyond strategic planning, my team conducts developer experience audits to ensure your tool creates those crucial "aha moments" that drive adoption. This includes reviewing documentation, analyzing the getting started experience, and identifying friction points in the developer journey.'
+          answer='We get technical where it matters for growth. Beyond strategic planning, our team conducts developer experience audits to ensure your tool creates those crucial "aha moments" that drive adoption. This includes reviewing documentation, analyzing the getting started experience, and identifying friction points in the developer journey.'
           question="How technical do you get during these sessions?"
         />
         <FaqItem
@@ -37,7 +42,7 @@ export function Faq() {
           question="How is this different from typical business coaching?"
         />
         <FaqItem
-          answer="Book a consult and let's talk about where you are. Sometimes, a quick conversation can point you in the right direction, and we can always do the sprint when the timing is right."
+          answer="Book a consult and let's talk about where you are. Sometimes, a quick conversation can point you in the right direction, and we can always do the sprint when the timing is right. Nearly every founder can benefit from the market insights, so that may be a great place to start."
           question="What if we're not ready for the growth strategy sprint?"
         />
       </Accordion>

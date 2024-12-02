@@ -1,70 +1,31 @@
-import Link from "next/link";
-
-import { Button } from "@/components/ui/button";
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
+import { Label } from "@/components/ui/label";
 
 export function CtaSection() {
   return (
-    <section className="container flex flex-col items-center gap-6 py-24 sm:gap-10">
-      <div className="text-center">
-        <span className="font-bold uppercase text-primary">Get Your Dev Tool Discovered</span>
-        <h2 className="text-3xl font-semibold pb-8 text-center pt-2">A Clear Path Forward</h2>
-        <h4 className="font-heading text-center text-lg max-w-xl">
-          We help you understand what&apos;s really happening in your developer ecosystem.
-        </h4>
+    <section className="container flex flex-col items-center gap-6 pb-28 pt-14 sm:gap-10">
+      <div className="flex flex-col gap-3">
+        <span className="text-center font-bold uppercase text-secondary">Case Study</span>
+        <h2 className="text-balance text-left font-heading text-3xl font-semibold tracking-tight">
+          What the Client Says
+        </h2>
       </div>
-      <div className="grid grid-cols-3 pt-10 pb-10 gap-8">
-        <div className="text-center">
-          <h2 className="font-heading font-semibold text-balance text-xl pb-4 text-primary text-6xl">
-            1
-          </h2>
-          <h2 className="font-heading font-semibold tracking-tight text-balance pb-3 text-xl uppercase">
-            Dev Market Insights
-          </h2>
-          <p className="text-muted-foreground text-balance pb-6">
-            Navigate the developer tool landscape confidently. Through deep market research and
-            developer insights, we help you spot the most promising opportunities while steering
-            clear of oversaturated segments.
-          </p>
-          <Button variant="outline">
-            Request Your Report
-            <Link href="#" />
-          </Button>
-        </div>
-        <div className="text-center">
-          <h2 className="font-heading font-semibold text-balance text-xl pb-4 text-6xl text-primary">
-            2
-          </h2>
-          <h2 className="font-heading font-semibold tracking-tight text-balance pb-3 text-xl uppercase">
-            Growth Strategy Sprint
-          </h2>
-          <p className="text-muted-foreground text-balance pb-6">
-            In one day together, we&apos;ll define your market position, map your most promising
-            channels, and create your developer growth strategy. You&apos;ll leave with clear
-            priorities and an actionable plan to engage developers.
-          </p>
-          <Button variant="outline">
-            Schedule Sprint
-            <Link href="#" />
-          </Button>
-        </div>
-        <div className="text-center">
-          <h2 className="font-heading font-semibold text-balance text-xl pb-4 text-6xl text-primary">
-            3
-          </h2>
-          <h2 className="font-heading font-semibold tracking-tight text-balance pb-3 text-xl uppercase">
-            Strategic Advisory Program
-          </h2>
-          <p className="text-muted-foreground text-balance pb-6">
-            Maintain momentum and sharpen your strategy through ongoing expert guidance. With
-            biweekly sessions and continuous market monitoring, we&apos;ll help you make confident
-            decisions to accelerate growth.
-          </p>
-          <Button variant="outline">
-            Apply for Program
-            <Link href="#" />
-          </Button>
-        </div>
-      </div>
+      <p className="max-w-xl text-balance text-center text-lg text-muted-foreground">
+        &quot;Tessa&apos;s passion for the DevRel work was very much a differentiating factor. In
+        our conversations, her enthusiasm for a good Dev Experience and DevRel function stood out.
+        It gave us confidence that she&apos;s not only skilled at her craft but also cares deeply
+        about the quality of her work.&quot;&lt;br&gt;
+      </p>
+      <Avatar>
+        <AvatarImage alt="avatar" src="/images/1659540882319.jpeg" className="object-cover" />
+        <AvatarFallback>ML</AvatarFallback>
+      </Avatar>
+      <Label>Fiona Hui Li, GTM at AgentQL</Label>
+      <p className="max-w-xl text-balance text-center text-lg text-muted-foreground">
+        &quot;Your advice, guidance and ongoing assistance leading up to this launch has been
+        invaluable. Some of the things that came about from our conversations include, yes, shipping
+        a playground! It&apos;s been such a pleasure to work with you.&quot;&lt;br&gt;
+      </p>
     </section>
   );
 }

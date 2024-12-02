@@ -23,12 +23,7 @@ export function TestimonialCard3({
       <CardContent className="flex flex-col items-start gap-5 p-7">
         <div className="flex items-center gap-4">
           <div className="relative size-10">
-            <Image
-              alt="Picture"
-              src="/images/{props.image}"
-              fill
-              className="rounded-full object-cover"
-            />
+            <Image alt="Picture" src={image} fill className="rounded-full object-cover" />
           </div>
           <div>
             <p className="font-semibold leading-none text-foreground">{name}</p>

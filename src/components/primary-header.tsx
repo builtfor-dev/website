@@ -13,35 +13,39 @@ interface PrimaryHeaderProps {
 export function PrimaryHeader({ className }: PrimaryHeaderProps) {
   return (
     <header className={cn("container flex items-center justify-between gap-10 py-4", className)}>
-      <Link href="/" className="flex items-center gap-3 flex-1">
+      <Link href="/" className="flex flex-1 items-center gap-3">
         <Image alt="Image" src="/images/green-icon.png" width={50} height={500} />
-        <span className="font-heading font-bold text-lg" />
+        <span className="font-heading text-lg font-bold" />
       </Link>
-      <nav className="hidden items-center gap-10 md:flex flex-1 justify-center text-foreground text-nowrap">
+      <nav className="hidden flex-1 items-center justify-center gap-10 text-nowrap text-foreground md:flex">
         <NavItem href="/services" label="Services" className="text-foreground" />
         <NavItem href="/framework" label="Framework" className="text-foreground" />
-        <NavItem href="/results" label="Results" className="text-foreground" />
+        <NavItem
+          href="https://hub.builtfor.dev/home/collections/case-studies"
+          label="Results"
+          className="text-foreground"
+        />
         <NavItem
           href="https://hub.builtfor.dev"
           label="Dev Hub"
-          className="text-foreground text-nowrap"
+          className="text-nowrap text-foreground"
         />
         <NavItem href="/about" label="About" className="text-foreground" />
       </nav>
-      <div className="hidden items-center gap-2 md:flex flex-1 justify-end">
+      <div className="hidden flex-1 items-center justify-end gap-2 md:flex">
         <Button asChild variant="default">
-          <Link href="https://blt4.dev/consult" className="cursor-pointer">
+          <a href="https://blt4.dev/consult" className="cursor-pointer">
             Book Strategy Consult
-          </Link>
+          </a>
         </Button>
       </div>
       <MobileNavbar>
-        <div className="rounded-b-lg bg-background py-4 container text-foreground shadow-xl">
+        <div className="container rounded-b-lg bg-background py-4 text-foreground shadow-xl">
           <nav className="flex flex-col gap-1 pt-2">
-            <undefined href="/about" label="About" />
-            <undefined href="/docs" label="Docs" />
-            <undefined href="/blog" label="Blog" />
-            <undefined href="/pricing" label="Pricing" />
+            <NavItem href="/about" label="About" />
+            <NavItem href="/docs" label="Docs" />
+            <NavItem href="/blog" label="Blog" />
+            <NavItem href="/pricing" label="Pricing" />
             <Button size="lg" asChild className="mt-2 w-full">
               <Link href="#" className="cursor-pointer">
                 Get Started

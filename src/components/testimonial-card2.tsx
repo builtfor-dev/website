@@ -22,14 +22,9 @@ export function TestimonialCard2({
     <Card className={cn("mt-7 inline-block break-inside-avoid shadow-lg", className)}>
       <CardContent className="flex flex-col items-start gap-4 divide-y p-7">
         <p className="text-foreground">{text}</p>
-        <div className="flex items-center gap-4 w-full pt-4">
+        <div className="flex w-full items-center gap-4 pt-4">
           <div className="relative size-10">
-            <Image
-              alt="Picture"
-              src="/images/{props.image}"
-              fill
-              className="rounded-full object-cover"
-            />
+            <Image alt="Picture" src={image} fill className="rounded-full object-cover" />
           </div>
           <div>
             <p className="font-semibold leading-none text-foreground">{name}</p>

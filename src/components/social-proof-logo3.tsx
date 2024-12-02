@@ -1,15 +1,15 @@
 import Image from "next/image";
 import { cn } from "@/lib/utils";
 
-interface SocialProofLogoProps {
-  src: string;
+interface SocialProofLogo3Props {
+  image: string;
   className?: string;
 }
 
-export function SocialProofLogo({ src, className }: SocialProofLogoProps) {
+export function SocialProofLogo3({ image, className }: SocialProofLogo3Props) {
   return (
     <div className={cn("relative col-span-2 h-11 flex-1 sm:h-10 lg:col-span-1", className)}>
-      <Image alt="Company Logo" src={src} fill className="object-contain" />
+      <Image src={image} alt="Company Logo" fill className="object-contain" />
     </div>
   );
 }

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#171717"/>
+  
+  <!-- Grid lines -->
+  <g stroke="#EDF2F2" stroke-width="0.5" opacity="0.2">
+    <line x1="50" y1="50" x2="350" y2="50"/>
+    <line x1="50" y1="100" x2="350" y2="100"/>
+    <line x1="50" y1="150" x2="350" y2="150"/>
+    <line x1="50" y1="200" x2="350" y2="200"/>
+    <line x1="50" y1="250" x2="350" y2="250"/>
+  </g>
+
+  <!-- Main stepping path representing strategic growth -->
+  <path d="M50 250 L150 200 L250 150 L350 100" 
+        fill="none" 
+        stroke="#60D7A5" 
+        stroke-width="3"
+        stroke-linecap="round"/>
+  
+  <!-- Milestone markers -->
+  <g>
+    <circle cx="150" cy="200" r="6" fill="#6173D7"/>
+    <circle cx="250" cy="150" r="6" fill="#6173D7"/>
+    <circle cx="350" cy="100" r="6" fill="#6173D7"/>
+  </g>
+
+  <!-- Support structure -->
+  <g stroke="#EDF2F2" stroke-width="2" opacity="0.6">
+    <line x1="150" y1="200" x2="150" y2="250"/>
+    <line x1="250" y1="150" x2="250" y2="250"/>
+    <line x1="350" y1="100" x2="350" y2="250"/>
+  </g>
+  
+  <!-- Pulse animations on milestone points -->
+  <g stroke="#60D7A5" fill="none" stroke-width="1">
+    <circle cx="150" cy="200" r="10">
+      <animate attributeName="r" values="6;12;6" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;0;0.6" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="250" cy="150" r="10">
+      <animate attributeName="r" values="6;12;6" dur="3s" begin="1s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;0;0.6" dur="3s" begin="1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="350" cy="100" r="10">
+      <animate attributeName="r" values="6;12;6" dur="3s" begin="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;0;0.6" dur="3s" begin="2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>
