@@ -1,36 +1,31 @@
-import { HeartHandshake, ChevronRight } from "lucide-react";
-import Link from "next/link";
-
-import { Button } from "@/components/ui/button";
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
+import { Label } from "@/components/ui/label";
 
 export function CtaSection() {
   return (
-    <section className="py-14">
-      <div className="container z-10">
-        <div className="mx-auto size-24 rounded-[2rem] border p-3 shadow-2xl backdrop-blur-md bg-background/10 lg:size-32">
-          <HeartHandshake size={16} className="mx-auto size-16 lg:size-24" />
-        </div>
-        <div className="z-10 mt-4 flex flex-col items-center text-center">
-          <h2 className="text-3xl font-bold lg:text-4xl font-heading">
-            Stop wasting time on design.
-          </h2>
-          <p className="mt-2">Start your 7-day free trial. No credit card required.</p>
-          <Button
-            size="lg"
-            asChild
-            variant="outline"
-            className="group mt-4 rounded-full px-6 hover:bg-border"
-          >
-            <Link href="#" className="group mt-4 px-6 transition-all duration-300 ease-out">
-              Get Started
-              <ChevronRight
-                size={16}
-                className="ml-1 size-4 transition-all duration-300 ease-out group-hover:translate-x-1"
-              />
-            </Link>
-          </Button>
-        </div>
+    <section className="container flex flex-col items-center gap-6 pb-28 pt-14 sm:gap-10">
+      <div className="flex flex-col gap-3">
+        <span className="text-center font-bold uppercase text-secondary">Case Study</span>
+        <h2 className="text-balance text-left font-heading text-3xl font-semibold tracking-tight">
+          What the Client Says
+        </h2>
       </div>
+      <p className="max-w-xl text-balance text-center text-lg text-muted-foreground">
+        &quot;Tessa&apos;s passion for the DevRel work was very much a differentiating factor. In
+        our conversations, her enthusiasm for a good Dev Experience and DevRel function stood out.
+        It gave us confidence that she&apos;s not only skilled at her craft but also cares deeply
+        about the quality of her work.&quot;&lt;br&gt;
+      </p>
+      <Avatar>
+        <AvatarImage alt="avatar" src="/images/1659540882319.jpeg" className="object-cover" />
+        <AvatarFallback>ML</AvatarFallback>
+      </Avatar>
+      <Label>Fiona Hui Li, GTM at AgentQL</Label>
+      <p className="max-w-xl text-balance text-center text-lg text-muted-foreground">
+        &quot;Your advice, guidance and ongoing assistance leading up to this launch has been
+        invaluable. Some of the things that came about from our conversations include, yes, shipping
+        a playground! It&apos;s been such a pleasure to work with you.&quot;&lt;br&gt;
+      </p>
     </section>
   );
 }

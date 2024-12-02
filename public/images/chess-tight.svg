@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240">
+  <!-- Board grid -->
+  <rect x="0" y="0" width="240" height="240" fill="none" stroke="#EDF2F2" stroke-width="0.5"/>
+  <line x1="0" y1="60" x2="240" y2="60" stroke="#EDF2F2" stroke-width="0.5"/>
+  <line x1="0" y1="120" x2="240" y2="120" stroke="#EDF2F2" stroke-width="0.5"/>
+  <line x1="0" y1="180" x2="240" y2="180" stroke="#EDF2F2" stroke-width="0.5"/>
+  
+  <line x1="60" y1="0" x2="60" y2="240" stroke="#EDF2F2" stroke-width="0.5"/>
+  <line x1="120" y1="0" x2="120" y2="240" stroke="#EDF2F2" stroke-width="0.5"/>
+  <line x1="180" y1="0" x2="180" y2="240" stroke="#EDF2F2" stroke-width="0.5"/>
+  
+  <!-- White pieces (outlined) -->
+  <circle cx="90" cy="90" r="15" fill="none" stroke="#EDF2F2" stroke-width="2"/>
+  <polygon points="150,70 165,100 135,100" fill="none" stroke="#EDF2F2" stroke-width="2"/>
+  
+  <!-- Green pieces (filled) -->
+  <circle cx="150" cy="150" r="15" fill="#60D7A5"/>
+  <polygon points="90,160 105,190 75,190" fill="#60D7A5"/>
+  
+  <!-- Move indicator -->
+  <circle cx="90" cy="90" r="25" fill="none" stroke="#6173D7" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="90" y1="90" x2="150" y2="150" stroke="#6173D7" stroke-width="2" stroke-dasharray="5,5"/>
+</svg>

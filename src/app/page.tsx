@@ -1,29 +1,29 @@
-import { Header2 } from "@/components/header-2";
-import { Hero2 } from "@/components/hero-2";
-import { SocialProof2 } from "@/components/social-proof-2";
-import { Features } from "@/components/features-section";
-import { Component } from "@/components/component";
-import { Component2 } from "@/components/component-2";
-import { Component3 } from "@/components/component-3";
-import { Component4 } from "@/components/component-4";
+import { PrimaryHeader } from "@/components/primary-header";
+import { Hero } from "@/components/hero";
+import { Logos } from "@/components/logos";
+import { ClearPathForward } from "@/components/clear-path-forward";
+import { AgentQLCaseStudy } from "@/components/agent-q-l-case-study";
+import { CtaSection } from "@/components/cta-section";
 import { CtaSection2 } from "@/components/cta-section-2";
-import { CtaSection3 } from "@/components/cta-section-3";
-import { Footer2 } from "@/components/footer-2";
+import { FeaturesSection } from "@/components/features-section";
+import { FAQ } from "@/components/f-a-q";
+import { NewsletterSubscribe } from "@/components/newsletter-subscribe";
+import { Footer } from "@/components/footer";
 
-export default function TestPage() {
+export default async function HomePage() {
   return (
     <>
-      <Header2 />
-      <Hero2 />
-      <SocialProof2 />
-      <Features />
-      <Component />
-      <Component2 />
-      <Component3 />
-      <Component4 />
+      <PrimaryHeader />
+      <Hero />
+      <Logos />
+      <ClearPathForward />
+      <AgentQLCaseStudy />
+      <CtaSection />
       <CtaSection2 />
-      <CtaSection3 />
-      <Footer2 />
+      <FeaturesSection />
+      <FAQ />
+      <NewsletterSubscribe />
+      <Footer />
     </>
   );
 }
